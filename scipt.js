@@ -1,5 +1,5 @@
 
-var word = prompt("input your word"); 
+var word = prompt("Введите слово для шифоровки"); 
 var code ="";
 for (var i = 0; i < word.length; i++) {
   var codepoint = word[i].charCodeAt(0); 
@@ -8,7 +8,7 @@ for (var i = 0; i < word.length; i++) {
 }
 alert(code);
 
-var word = prompt("input your word"); 
+var word = prompt("Введите слово для дешифровки"); 
 var code ="";
 var numback = Number(prompt("Цифра кодировки"));
 for (var i = 0; i < word.length; i++) {
